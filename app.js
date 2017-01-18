@@ -2,7 +2,7 @@
 	function a(q) { //+-
 		return q.replace(/([\+\-]?[0-9]+)([\+\-])([0-9]+)/, function(){
 			var l = parseInt(RegExp.$1), pm = RegExp.$2, r = parseInt(RegExp.$3);
-			return signed(pm == '+' ? l + r : l - r);
+//			return signed(pm == '+' ? l + r : l - r);
 		})
 	}
 
