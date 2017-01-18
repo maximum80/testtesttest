@@ -1,0 +1,10 @@
+{
+  "editable": [
+    "app.js"
+  ],
+  "excludes": [
+    "test/test.private.js"
+  ],
+  "test": "mocha",
+  "allowNewFile": false
+}
